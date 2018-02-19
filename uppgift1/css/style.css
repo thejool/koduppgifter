@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.container {
+    width: 970px;
+    margin: 0 auto;
+}
+
+.column {
+    width: 50%;
+    float: left;
+}
+
+label,
+input,
+button {
+    display: block;
+    margin-top: 5px;
+}
+
+button {
+    background: tomato;
+    color: #fff;
+    border-radius: 3px;
+    border: 0;
+    margin-top: 10px;
+    padding: 10px 25px;
+    font-size: 16px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #dc533b;
+}
+
+button:disabled {
+    opacity: 0.5;
+}
