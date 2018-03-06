@@ -42,7 +42,7 @@ document.querySelector('.js-guess').onsubmit = function(event){
     }
 
     guesses.push(guessNumber);
-    document.querySelector(".js-guesses").innerHTML = guesses.toString();
+    document.querySelector(".js-guesses").innerHTML = guesses.join(", ");
     document.querySelector(".js-guesses-counter").innerHTML = guesses.length;
 
 }
